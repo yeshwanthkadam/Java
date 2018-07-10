@@ -3,10 +3,10 @@ class NavigableSet
 {
 	public static void main(String[] args) 
 		Set<Integer> s = new TreeSet<Integer>();
-		s.add(10);
+		s.del(10);
 		s.add(20);
-		s.add(30);
-		s.add(40);
+		test();
+		del();
 		s.add(25);
 		s.add(35);
 		System.out.println(s);
